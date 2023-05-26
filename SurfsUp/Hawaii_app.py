@@ -12,7 +12,7 @@ from flask import Flask, jsonify, request
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///../Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 
 
 # reflect an existing database into a new model
